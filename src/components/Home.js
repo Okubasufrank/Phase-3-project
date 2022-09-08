@@ -88,7 +88,7 @@ function Home() {
                       return category.name === business.category_id.name ? (
                         <div
                           key={business.id}
-                          className="group relative bg-violet-100"
+                          className="group relative bg-green-400"
                           onClick={() => {
                             setItem(business);
                             setShow((show) => !show);
