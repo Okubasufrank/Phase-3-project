@@ -102,10 +102,10 @@ function Home() {
                             />
                           </div>
                           <div className="flex flex-col p-2">
-                            <p className="mt-6 text-base font-semibold text-gray-900">
+                            <p className="mt-6 text-base font-semibold text-green-900">
                               {business.name}
                             </p>
-                            <h3 className="mt-3 text-sm text-gray-500">
+                            <h3 className="mt-3 text-sm text-black-500">
                               <span className="absolute inset-0" />
                               {`${business.description.slice(0, 70)} ...`}
                             </h3>
