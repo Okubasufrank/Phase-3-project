@@ -107,7 +107,7 @@ export default function ProfileContent() {
               <div className="px-4 py-5 bg-white space-y-6 sm:p-6">
                 <div>
                   {progresspercent > 0 && progresspercent < 100 ? (
-                    <h2 className="text-orange-400">{progresspercent}%</h2>
+                    <h2 className="text-green-400">{progresspercent}%</h2>
                   ) : null}
 
                   {profile ? (
