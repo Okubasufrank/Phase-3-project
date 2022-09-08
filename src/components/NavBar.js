@@ -29,7 +29,7 @@ function NavBar({ showProfile, setShowProfile }) {
   const auth = getAuth(app);
   const navigate = useNavigate();
   return (
-    <Disclosure as="nav" className="bg-yellow-200">
+    <Disclosure as="nav" className="bg-green-500">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
