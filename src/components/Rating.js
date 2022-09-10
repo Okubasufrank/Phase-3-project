@@ -11,7 +11,7 @@ export default function RatingApp({ rating, setRating }) {
     <Rating
       onClick={handleRating}
       initialRating={rating}
-      emptySymbol={<Star color="" size={30} />}
+      emptySymbol={<Star color="green" size={30} />}
       fullSymbol={<StarFill color="orange" size={30} />}
     />
   );
