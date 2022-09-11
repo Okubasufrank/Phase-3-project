@@ -116,7 +116,7 @@ export default function BusinessesTable() {
           <h1 className="py-3 text-lg">Create Business</h1>
           <div>
             <label className="block text-sm font-medium text-gray-700">
-              Image
+          Select Image:
             </label>
             <input
               className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
@@ -204,8 +204,8 @@ export default function BusinessesTable() {
               />
               <button
                 onClick={(e) => {
-                  e.preventDefault()
-                  if(business.services === "") return 
+                  e.preventDefault();
+                  if (business.services === "") return;
                   setServices((services) => [...services, business.services]);
                   setBusiness((business) => ({
                     ...business,
@@ -218,7 +218,7 @@ export default function BusinessesTable() {
               </button>
             </div>
             <div className="flex">
-              {services.map((service,index) => (
+              {services.map((service, index) => (
                 <span
                   key={index}
                   className="text-green-400 border border-orange-300 p-2 rounded-md m-1"
@@ -265,23 +265,30 @@ export default function BusinessesTable() {
         <tbody>
           {businesses.map((business) => (
             <tr
-              key={business['id']}
+              key={business["id"]}
               className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
             >
               <th
                 scope="row"
                 className="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap"
               >
-                {business['id']}
+                {business["id"]}
               </th>
               <td className="px-6 py-4">
-                <img className="h-10 w-10 rounded-full" src={business.image_url} alt={business.name}/>
+                <img
+                  className="h-10 w-10 rounded-full"
+                  src={business.image_url}
+                  alt={business.name}
+                />
               </td>
               <td className="px-6 py-4">{business.name}</td>
               <td className="px-6 py-4">{business.category_id.name}</td>
               <td className="px-6 py-4">{business.description}</td>
               <td className="px-6 py-4 text-right">
-                <button onClick={() => handleDelete(business.id)} className="font-medium text-red-600 dark:text-red-500 hover:underline">
+                <button
+                  onClick={() => handleDelete(business.id)}
+                  className="font-medium text-red-600 dark:text-red-500 hover:underline"
+                >
                   Delete
                 </button>
               </td>
