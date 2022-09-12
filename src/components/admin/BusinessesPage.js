@@ -130,7 +130,7 @@ export default function BusinessesTable() {
                 {`Uploading... ${progresspercent}%`}
               </span>
             ) : progresspercent === 100 ? (
-              <span className="text-green-600">Uploading complete</span>
+              <span className="text-green-600">Downloading complete</span>
             ) : null}
           </div>
           <div>
