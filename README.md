@@ -1,7 +1,7 @@
 # Biashara Hub
 
 #### Version v1.0.0
-#### By Alex Kiborgok
+#### By Okubasu Aswani
 ### A project built with React, biashara API and Firebase API.
 
 ## Table of Contents
