@@ -126,8 +126,7 @@ function SignupPage() {
             </div>
           </div>
           <span className="font-small text-gray-600 hover:text-gray-500">
-            <span className="text-red-600">* </span>Password MUST be 6 or more
-            characters
+            <span className="text-red-600">* </span>8 characters minimum
           </span>
 
           <div>
