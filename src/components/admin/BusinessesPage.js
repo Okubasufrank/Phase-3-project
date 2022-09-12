@@ -189,7 +189,7 @@ export default function BusinessesTable() {
           </div>
           <div>
             <label htmlFor="services" className="sr-only">
-              Business services
+              Our services
             </label>
             <div className="flex">
               <input
