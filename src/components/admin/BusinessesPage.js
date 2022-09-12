@@ -113,7 +113,7 @@ export default function BusinessesTable() {
         onSubmit={handleSubmit}
       >
         <div className="rounded-md shadow-sm space-y-2">
-          <h1 className="py-3 text-lg">Create Business</h1>
+          <h1 className="py-3 text-lg">Add Business</h1>
           <div>
             <label className="block text-sm font-medium text-gray-700">
           Select Image:
@@ -134,7 +134,7 @@ export default function BusinessesTable() {
             ) : null}
           </div>
           <div>
-            <label htmlFor="category-name">Select an option</label>
+            <label htmlFor="category-name">Select from below option</label>
             <select
               name="category"
               className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
