@@ -255,7 +255,7 @@ export default function BusinessesTable() {
               Category
             </th>
             <th scope="col" className="px-6 py-3">
-              Description
+              Details
             </th>
             <th scope="col" className="px-6 py-3">
               <span className="sr-only">Remove</span>
