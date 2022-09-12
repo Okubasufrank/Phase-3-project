@@ -1,7 +1,7 @@
 # Biashara Hub
 
 #### Version v1.0.0
-#### By Okubasu Aswani
+#### By Aswani Okubasu
 ### A project built with React, biashara API and Firebase API.
 
 ## Table of Contents
@@ -30,8 +30,8 @@
 * FirebaseAPI
 * Tailwind
 
-##Backend
-To access the Backend, use the bellow link
+## Backend
+To access the Backend, kindly use the link bellow
 https://github.com/Okubasufrank/phase-3-sinatra-project
 
 ## Reference
