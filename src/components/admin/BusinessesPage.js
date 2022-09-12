@@ -246,7 +246,7 @@ export default function BusinessesTable() {
               ID
             </th>
             <th scope="col" className="px-6 py-3">
-              Image
+              Potrait
             </th>
             <th scope="col" className="px-6 py-3">
               Name
