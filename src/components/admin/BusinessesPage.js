@@ -157,7 +157,7 @@ export default function BusinessesTable() {
           </div>
           <div>
             <label htmlFor="name" className="sr-only">
-              Business name
+              Biashara name
             </label>
             <input
               id="name"
