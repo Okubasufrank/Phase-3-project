@@ -173,7 +173,7 @@ export default function BusinessesTable() {
           </div>
           <div>
             <label htmlFor="description" className="sr-only">
-              Business description
+              Biashara description
             </label>
             <input
               id="description"
