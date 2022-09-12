@@ -258,7 +258,7 @@ export default function BusinessesTable() {
               Description
             </th>
             <th scope="col" className="px-6 py-3">
-              <span className="sr-only">Delete</span>
+              <span className="sr-only">Remove</span>
             </th>
           </tr>
         </thead>
