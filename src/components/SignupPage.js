@@ -94,7 +94,7 @@ function SignupPage() {
             </div>
             <div>
               <label htmlFor="email-address" className="sr-only">
-                Email address
+                Your Email
               </label>
               <input
                 id="email-address"
