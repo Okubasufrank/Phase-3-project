@@ -289,7 +289,7 @@ export default function BusinessesTable() {
                   onClick={() => handleDelete(business.id)}
                   className="font-medium text-red-600 dark:text-red-500 hover:underline"
                 >
-                  Delete
+                  Remove
                 </button>
               </td>
             </tr>
