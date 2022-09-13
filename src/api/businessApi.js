@@ -1,5 +1,4 @@
-const BASE_URL = "https://biashara-api.herokuapp.com";
-
+const BASE_URL = "https://biashara-app.herokuapp.com";
 export async function addBusiness(business) {
   try {
     const response = await fetch(BASE_URL + '/api/v1/businesses', {
