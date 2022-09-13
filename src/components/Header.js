@@ -3,7 +3,7 @@ function Header({search, setSearch}) {
     <header className="bg-white shadow">
       <div className="flex flex-col md:flex-row justify-between md: justify-center max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
         <h1 className="m-2 text-center text-3xl font-bold text-green-300">
-          Wakulima 
+          Buzinezz
         </h1>
 
         <div className="flex items-center justify-center">
